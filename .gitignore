@@ -1,4 +1,7 @@
 *.csv
+*.csv.*
 *.log
 *.txt
+/.scrapy/
+scrapy.cfg
 
