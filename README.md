@@ -6,9 +6,9 @@ Historical data of US stocks, updated daily.
 
 The data are collected using [pystock-crawler](https://github.com/eliangcs/pystock-crawler)
 and [pystock-github](https://github.com/eliangcs/pystock-github). Every day
-before the US stock exchanges open (EST/EDT 9:00), the crawler collects the
+before the US stock exchanges open at 9:30 EST/EDT, the crawler collects the
 stock prices and financial reports, and pushes the data to this repository.
-Thus, the latest data is of yesterday. The data are daily-based, meaning that
+Thus, the latest data is of yesterday. The data are day-based, meaning that
 you won't find hourly or minute-level data here.
 
 `pystock-crawler` crawls data from the following sources:
