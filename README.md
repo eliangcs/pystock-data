@@ -2,7 +2,7 @@
 
 Historical data of US stocks, updated daily.
 
-## How, When, and Where
+## How Data are Collected
 
 The data are collected using [pystock-crawler](https://github.com/eliangcs/pystock-crawler)
 and [pystock-github](https://github.com/eliangcs/pystock-github). Every day
