@@ -1,7 +1,6 @@
 *.csv
 *.csv.*
 *.log
-*.txt
 /.scrapy/
 scrapy.cfg
 nohup.out
