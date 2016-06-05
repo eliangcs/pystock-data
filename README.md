@@ -98,3 +98,26 @@ The financial metrics included are:
 * `cash_flow_op`: cash from operating activities
 * `cash_flow_inv`: cash from investing activities
 * `cash_flow_fin`: cash from financing activities
+
+## HTTP API
+
+Besides the Github repo (https://github.com/eliangcs/pystock-data), you can
+also use the HTTP API provided by http://data.pystock.com.
+
+This "website" is built with [Github Pages](https://pages.github.com/) and is
+a mirror of the git repo. If you're building an application on pystock-data,
+http://data.pystock.com is a better choice over the git repo, since not only is
+HTTP API easier to use, but you will also benefit from the fast CDN provided by
+Github Pages.
+
+To navigate the filesystem on the HTTP API, you just visit index file:
+
+http://data.pystock.com/index.txt
+
+where you can find the index file for each year. For instance:
+
+http://data.pystock.com/2016/index.txt
+
+From there, you will find all the .tar.gz files for that year. For instance:
+
+http://data.pystock.com/2016/20160104.tar.gz
