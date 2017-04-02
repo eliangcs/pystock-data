@@ -1,3 +1,9 @@
+**IMPORTANT UPDATE** on Apr 2, 2017: I've decided to stop maintaining this
+repo. The HTTP API (http://data.pystock.com) and the GitHub repo will be still
+accessible, only that latest data will stay at **Mar 31, 2017** forever.
+However, I do offer paid service for maintaining this dataset. Please contact
+me at eliang.cs@gmail.com.
+
 # US Stock Data
 
 Historical data of US stocks, updated daily.
